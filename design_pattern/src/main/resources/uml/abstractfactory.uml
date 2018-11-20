@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.design.pattern.design_pattern.factory.abstractfactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="95.0">com.example.design.pattern.design_pattern.factory.abstractfactory.JavaVideo</node>
+    <node x="674.0" y="95.0">com.example.design.pattern.design_pattern.factory.abstractfactory.PythonArticle</node>
+    <node x="487.87499999999994" y="180.0">com.example.design.pattern.design_pattern.factory.abstractfactory.PythonCourseFactory</node>
+    <node x="154.00000000000003" y="95.0">com.example.design.pattern.design_pattern.factory.abstractfactory.JavaArticle</node>
+    <node x="113.375" y="180.0">com.example.design.pattern.design_pattern.factory.abstractfactory.JavaCourseFactory</node>
+    <node x="313.0" y="95.0">com.example.design.pattern.design_pattern.factory.abstractfactory.CourseFactory</node>
+    <node x="434.875" y="0.0">com.example.design.pattern.design_pattern.factory.abstractfactory.Article</node>
+    <node x="270.375" y="0.0">com.example.design.pattern.design_pattern.factory.abstractfactory.Video</node>
+    <node x="165.375" y="265.0">com.example.design.pattern.design_pattern.factory.abstractfactory.Test</node>
+    <node x="499.0" y="95.0">com.example.design.pattern.design_pattern.factory.abstractfactory.PythonVideo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.design.pattern.design_pattern.factory.abstractfactory.PythonArticle" target="com.example.design.pattern.design_pattern.factory.abstractfactory.Article">
+      <point x="0.0" y="-17.5" />
+      <point x="754.0" y="55.0" />
+      <point x="516.625" y="55.0" />
+      <point x="27.25" y="17.5" />
+    </edge>
+    <edge source="com.example.design.pattern.design_pattern.factory.abstractfactory.PythonVideo" target="com.example.design.pattern.design_pattern.factory.abstractfactory.Video">
+      <point x="0.0" y="-17.5" />
+      <point x="576.5" y="65.0" />
+      <point x="348.375" y="65.0" />
+      <point x="26.0" y="17.5" />
+    </edge>
+    <edge source="com.example.design.pattern.design_pattern.factory.abstractfactory.JavaCourseFactory" target="com.example.design.pattern.design_pattern.factory.abstractfactory.CourseFactory">
+      <point x="65.33333333333331" y="-17.5" />
+      <point x="276.7083333333333" y="155.0" />
+      <point x="354.5" y="155.0" />
+      <point x="-41.5" y="17.5" />
+    </edge>
+    <edge source="com.example.design.pattern.design_pattern.factory.abstractfactory.PythonCourseFactory" target="com.example.design.pattern.design_pattern.factory.abstractfactory.CourseFactory">
+      <point x="-72.33333333333326" y="-17.5" />
+      <point x="524.0416666666667" y="155.0" />
+      <point x="437.5" y="155.0" />
+      <point x="41.5" y="17.5" />
+    </edge>
+    <edge source="com.example.design.pattern.design_pattern.factory.abstractfactory.JavaVideo" target="com.example.design.pattern.design_pattern.factory.abstractfactory.Video">
+      <point x="0.0" y="-17.5" />
+      <point x="67.0" y="65.0" />
+      <point x="296.375" y="65.0" />
+      <point x="-26.0" y="17.5" />
+    </edge>
+    <edge source="com.example.design.pattern.design_pattern.factory.abstractfactory.JavaArticle" target="com.example.design.pattern.design_pattern.factory.abstractfactory.Article">
+      <point x="-2.8421709430404007E-14" y="-17.5" />
+      <point x="223.5" y="75.0" />
+      <point x="462.125" y="75.0" />
+      <point x="-27.25" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="415.9999999999999" y="105.24999999999994" />
+  <SelectedNodes>
+    <node>com.example.design.pattern.design_pattern.factory.abstractfactory.PythonVideo</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

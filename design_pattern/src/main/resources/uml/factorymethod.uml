@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.design.pattern.design_pattern.factory.factorymethod</OriginalElement>
+  <nodes>
+    <node x="0.0" y="330.0">com.example.design.pattern.design_pattern.factory.factorymethod.Test</node>
+    <node x="154.0" y="250.0">com.example.design.pattern.design_pattern.factory.factorymethod.PythonVideo</node>
+    <node x="103.75" y="0.0">com.example.design.pattern.design_pattern.factory.factorymethod.AbstractVideoFactory</node>
+    <node x="0.0" y="250.0">com.example.design.pattern.design_pattern.factory.factorymethod.JavaVideo</node>
+    <node x="97.25" y="165.0">com.example.design.pattern.design_pattern.factory.factorymethod.Video</node>
+    <node x="229.0" y="85.0">com.example.design.pattern.design_pattern.factory.factorymethod.JavaVideoFactory</node>
+    <node x="0.0" y="85.0">com.example.design.pattern.design_pattern.factory.factorymethod.PythonVideoFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.design.pattern.design_pattern.factory.factorymethod.PythonVideoFactory" target="com.example.design.pattern.design_pattern.factory.factorymethod.AbstractVideoFactory">
+      <point x="0.0" y="-17.5" />
+      <point x="104.5" y="60.0" />
+      <point x="158.75" y="60.0" />
+      <point x="-55.0" y="17.5" />
+    </edge>
+    <edge source="com.example.design.pattern.design_pattern.factory.factorymethod.JavaVideo" target="com.example.design.pattern.design_pattern.factory.factorymethod.Video">
+      <point x="0.0" y="-17.5" />
+      <point x="67.0" y="225.0" />
+      <point x="123.25" y="225.0" />
+      <point x="-26.0" y="17.5" />
+    </edge>
+    <edge source="com.example.design.pattern.design_pattern.factory.factorymethod.PythonVideo" target="com.example.design.pattern.design_pattern.factory.factorymethod.Video">
+      <point x="0.0" y="-17.5" />
+      <point x="231.5" y="225.0" />
+      <point x="175.25" y="225.0" />
+      <point x="26.0" y="17.5" />
+    </edge>
+    <edge source="com.example.design.pattern.design_pattern.factory.factorymethod.JavaVideoFactory" target="com.example.design.pattern.design_pattern.factory.factorymethod.AbstractVideoFactory">
+      <point x="0.0" y="-17.5" />
+      <point x="323.0" y="60.0" />
+      <point x="268.75" y="60.0" />
+      <point x="55.0" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="315.4999999999998" y="103.93749999999989" />
+  <SelectedNodes>
+    <node>com.example.design.pattern.design_pattern.factory.factorymethod.AbstractVideoFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

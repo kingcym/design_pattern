@@ -1,6 +1,8 @@
 package com.example.design.pattern.design_pattern.factory.factorymethod;
 
-import java.util.Calendar;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @Author: Kingcym
@@ -8,6 +10,9 @@ import java.util.Calendar;
  * @Date: 2018/11/19 23:45
  */
 public class Test {
+    private static final Logger log = LoggerFactory.getLogger(Test.class);
+
+
     public static void main(String[] args) {
         AbstractVideoFactory javaVideoFactory = new JavaVideoFactory();
         Video video = javaVideoFactory.getVideo();
@@ -17,7 +22,7 @@ public class Test {
         Video video2 = pythonVideoFactory.getVideo();
         video2.produce();
 
-
+        //ILoggerFactory
     }
 
 
